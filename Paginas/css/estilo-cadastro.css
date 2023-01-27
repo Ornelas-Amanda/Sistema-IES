@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Slabo+27px&display=swap');
+
+:root{
+    --cor-primaria: #fff;
+    --cor-titulo: #fff;
+
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box; list-style: none;}
+.body-formCadastro{
+    background-image:linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.70)100%), url(./../imagens/background-formCadastro.jpg);
+    background-size:cover;
+}
+
+.titulo-principal{
+    font-family: 'Major Mono Display', monospace;
+    color: var(--cor-titulo);
+    margin-top :20px ;
+}
+
+.letra{
+    font-family: 'Slabo 27px', serif; 
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.container-cadastro{
+    background:white;
+    width: 50%;
+    height: 420px;
+    padding: 10px;
+    margin: 120px 0 0 0;
+}
+
+#caixa-horarios{
+    margin: 10px;
+}
+
+.btn{
+    width: 30%;
+    height: 30px;
+    float: right;
+    font-family: 'Slabo 27px', serif; 
+    background: #0a85ff ;
+    border-radius: 25px;
+}
+
+.volta{
+    text-decoration: none;
+    width: 30%;
+    padding: 5px 30px;
+    color: black;
+    font-family: 'Slabo 27px', serif; 
+}
+
+footer{
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+
+.footer{
+    margin: 260px 0 0 500px;
+}
+
+.footer h4{
+    color: var(--cor-titulo);
+    font-family: 'Slabo 27px', serif; 
+}

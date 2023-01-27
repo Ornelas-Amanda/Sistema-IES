@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Slabo+27px&display=swap');
+
+:root{
+    --cor-primaria: #fff;
+    --cor-titulo: #fff;
+
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box; list-style: none;}
+body{
+    background-image:linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)100%), url(./../imagens/background-listaHorario.jpg);
+    background-size:cover;
+}
+
+.caixa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-tabela{
+    background: var(--cor-primaria);
+    width: 100%;
+    padding: 30px;
+}
+
+
+
+.titulo-principal{
+    font-family: 'Major Mono Display', monospace;
+    color: var(--cor-titulo);
+    font-size: 30px;
+    margin-top :20px ;
+}
+
+.letra{
+    font-family: 'Slabo 27px', serif; 
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.volta{
+    text-decoration: none;
+    width: 30%;
+    padding: 15px 30px;
+    color: var(--cor-primaria);
+    font-family: 'Slabo 27px', serif; 
+}
